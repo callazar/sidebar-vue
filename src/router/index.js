@@ -1,7 +1,7 @@
 import { createRouter,createWebHistory } from "vue-router";
 import homePage from '../views/homePage.vue'
 import aboutPage from '../views/aboutPage.vue'
-import teamPage from '../views/teamPage.vue'
+import portofolioPage from '../views/portofolioPage.vue'
 import contactPage from '../views/contactPage.vue'
 import settingPage from '../views/settingPage.vue'
 
@@ -19,9 +19,9 @@ const router = createRouter ({
             component: aboutPage
         },
         {
-            path:'/team',
-            name:'team',
-            component: teamPage
+            path:'/portofolio',
+            name:'portofolio',
+            component: portofolioPage
         },
         {
             path:'/contact',

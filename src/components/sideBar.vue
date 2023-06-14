@@ -18,12 +18,12 @@
         <span class="text">Home</span>
       </router-link>
       <router-link class="button" to="/about">
-        <span class="material-symbols-outlined">visibility</span>
+        <span class="material-symbols-outlined">description</span>
         <span class="text">About</span>
       </router-link>
-      <router-link class="button" to="/team">
-        <span class="material-symbols-outlined">group</span>
-        <span class="text">Team</span>
+      <router-link class="button" to="/portofolio">
+        <span class="material-symbols-outlined">account_circle</span>
+        <span class="text">Portofolio</span>
       </router-link>
       <router-link class="button" to="/contact">
         <span class="material-symbols-outlined">email</span>
@@ -62,10 +62,8 @@ aside {
   min-height: 100vh;
   overflow: hidden;
   padding: 1rem;
-
   background-color: var(--dark);
   color: var(--light);
-
   transition: 0.2s ease-out;
 
   .flex {
@@ -84,7 +82,6 @@ aside {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 1rem;
-
     position: relative;
     top: 0;
     transition: 0.2s ease-out;
@@ -126,7 +123,6 @@ aside {
       display: flex;
       align-items: center;
       text-decoration: none;
-
       padding: 0.5rem 1rem;
       transition: 0.2s ease-out;
 
