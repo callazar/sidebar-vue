@@ -1,7 +1,7 @@
 <template>
   <aside :class="`${is_expanded && 'is-expanded'}`">
     <div class="logo">
-      <img src="../assets/logo.png" alt="Vue" />
+      <img src="../assets/P1.jpg" alt="ME" />
     </div>
     <div class="menu-toggle-warp">
       <button class="menu-toggle" @click="toggleMenu">
@@ -21,24 +21,20 @@
         <span class="material-symbols-outlined">description</span>
         <span class="text">About</span>
       </router-link>
-      <router-link class="button" to="/portofolio">
+      <!-- <router-link class="button" to="/portofolio">
         <span class="material-symbols-outlined">account_circle</span>
         <span class="text">Portofolio</span>
-      </router-link>
-      <router-link class="button" to="/contact">
-        <span class="material-symbols-outlined">email</span>
-        <span class="text">Contact</span>
-      </router-link>
+      </router-link> -->
     </div>
 
     <div class="flex"></div>
 
-    <dev class="menu">
+    <!-- <dev class="menu">
       <router-link class="button" to="/settings">
         <span class="material-symbols-outlined">settings</span>
         <span class="text">Settings</span>
       </router-link>
-    </dev>
+    </dev> -->
   </aside>
 </template>
 
@@ -72,9 +68,10 @@ aside {
 
   .logo {
     margin-bottom: 1rem;
-
+    
     img {
       width: 2rem;
+      border-radius: 50px;
     }
   }
 
